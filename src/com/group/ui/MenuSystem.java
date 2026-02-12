@@ -64,7 +64,7 @@ public class MenuSystem {
         }
 
         for (Order o : orders) {
-            System.out.println(o.getId() + " | " + o.getStatus());
+            System.out.println(o.getorderId() + " | " + o.getStatus());
         }
     }
 
@@ -102,7 +102,7 @@ public class MenuSystem {
         String id = scanner.nextLine().trim();
 
         for (Order o : orders) {
-            if (o.getId().equals(id)) {
+            if (o.getorderId().equals(id)) {
                 return o;
             }
         }
