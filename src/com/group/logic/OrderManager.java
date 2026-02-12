@@ -1,4 +1,4 @@
-package com.group.models;
+package com.group.logic;
 
 import com.group.models.Order;
 import com.group.models.OrderStatus;
